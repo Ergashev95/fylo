@@ -1,0 +1,42 @@
+@import "fonts.css";
+
+/* CUSTOM PROPS */
+
+:root {
+    --Raleway: "Raleway";
+    --OpenSans: "Open Sans";
+    --NunitoSans: "NunitoSans";
+    --Primry: #2F65F8;
+    --DarkBlue: #07043B;
+}
+
+
+/* GLOBAL STYLES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1328px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--OpenSans);
+}
+
+
