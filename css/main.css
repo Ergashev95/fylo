@@ -34,9 +34,39 @@ ul {
     padding-right: 24px;
     margin: 0 auto;
 }
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 body {
     font-family: var(--OpenSans);
 }
+
+/* SITE-HEADER */
+.site-header {
+    margin-top: 65px;
+}
+.logo {
+    display: block;
+}
+.logo-image {
+    width: 166px;
+    height: 49px;
+    object-fit: cover;
+}
+.menu {
+    display: flex;
+    column-gap: 57px;
+}
+.menu-link {
+    color: var(--DarkBlue);
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* SITE-HEADER */
 
 
