@@ -1,0 +1,43 @@
+@media only screen and (max-width: 576px) {
+    .site-header{
+        margin-top: 24px;
+    }
+    .menu {
+        column-gap: 24px;
+    }
+    .logo-image {
+        width: 80px;
+        height: 24px;
+    }
+    .menu-link {
+        font-size: 12px;
+    }
+    .d-flex-mobile {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    .site-headline {
+        font-size: 24px;
+        line-height: 36px; 
+        text-align: center;
+    }
+    .site-text {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .site-form {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .site-form__input {
+        max-width: unset;
+        width: 100%;
+    }
+    .site-btn {
+       max-width: unset;
+       width: 100%;
+    }
+}
